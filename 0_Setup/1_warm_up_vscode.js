@@ -35,13 +35,15 @@
 // On Mac : Shift + Option + F
 // On Linux : Ctrl + Shift + I
 
-    let a=              1234    ;
-    a++;
-                    if (  a > 123 ) {
+let a = 1234;
+a++;
+if (a > 123) {
     a--;
-            }
-                                                else a++
-            console.log(a);
+}
+else {
+    a++;
+}
+console.log(a);
 
 // Nothing happened? 
 // If so, your code (technically my code, if you just cloned it)
@@ -92,10 +94,10 @@
 // Hint: follow the pattern.
 a = 1
 b = 2
-c.= 3
+c = 3
 
 // Hint: This function has no name following the word function.
-function(notUsed) {
+function sayHello() {
     console.log('Hello!');
 }
 
@@ -109,7 +111,7 @@ function(notUsed) {
 
 // a. Comment out useless code with Ctrl-/. Notice if you applied the
 // command multiple times, it will uncomment/comment/uncomment... it.
-uselessCode = 'I am useless';
+// uselessCode = 'I am useless';
 
 // c. Cool. What other shorcuts are available? Here is a shortcut to find
 // them all. Ctrl-Shift-P. Look around and remember how to get here,
